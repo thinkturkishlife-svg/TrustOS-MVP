@@ -8,6 +8,15 @@ In future iterations, this file can include:
 from pydantic import BaseModel
 
 
+class MatchRequest(BaseModel):
+    """Input schema for direct trustee matching requests."""
+
+    trust_size: int | float
+    jurisdiction: str
+    needs_directed_trust: bool
+    needs_external_advisor: bool
+
+
 class QuestionnaireSubmission(BaseModel):
     """Placeholder schema for questionnaire input data."""
 

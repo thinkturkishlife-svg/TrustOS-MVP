@@ -7,12 +7,18 @@ This module will eventually expose API endpoints for:
 """
 
 from fastapi import FastAPI
-
+from fastapi.middleware.cors import CORSMiddleware
 from .matching import match_trustees
 from .models import MatchRequest, MatchResult
 
 app = FastAPI(title="TrustOS MVP API")
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/")
 def read_root() -> dict[str, str]:

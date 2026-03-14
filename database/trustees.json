@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Prairie Trust",
+    "jurisdiction": "South Dakota",
+    "min_size": 250000,
+    "directed_trust": true,
+    "external_advisor": true
+  },
+  {
+    "name": "National Advisors Trust",
+    "jurisdiction": "South Dakota",
+    "min_size": 500000,
+    "directed_trust": true,
+    "external_advisor": true
+  },
+  {
+    "name": "Wealth Advisors Trust Company",
+    "jurisdiction": "South Dakota",
+    "min_size": 1000000,
+    "directed_trust": true,
+    "external_advisor": true
+  },
+  {
+    "name": "Arden Trust",
+    "jurisdiction": "South Dakota",
+    "min_size": 1000000,
+    "directed_trust": true,
+    "external_advisor": true
+  },
+  {
+    "name": "Sterling Trustees",
+    "jurisdiction": "South Dakota",
+    "min_size": 2000000,
+    "directed_trust": true,
+    "external_advisor": true
+  }
+]
